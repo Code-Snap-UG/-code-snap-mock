@@ -1,0 +1,18 @@
+{
+  "name": "@code-snap/mock",
+  "license": "MIT",
+  "version": "1.0.3",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/inde.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "author": "Code Snap UG",
+  "description": "Small and simple library for managing mocks",
+  "devDependencies": {
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
+  }
+}
