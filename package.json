@@ -14,5 +14,9 @@
   "devDependencies": {
     "tsup": "^8.3.6",
     "typescript": "^5.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Code-Snap-UG/-code-snap-mock.git"
   }
 }
